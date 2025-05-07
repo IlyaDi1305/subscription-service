@@ -12,7 +12,7 @@
 - Swagger (SpringDoc OpenAPI)
 - SLF4J (логирование)
 - JUnit + MockMvc (тесты контроллеров)
-
+- Grafana + Prometheus
 ---
 
 ## ✅ Реализовано
@@ -35,9 +35,7 @@
 
 ## Кэширование
 
-Используется встроенное кеширование Spring (`@EnableCaching`) для следующих запросов:
-- `GET /api/v1/users/{id}` — данные пользователя
-- `GET /api/v1/subscriptions/top` — топ популярных подписок
+Используется встроенное кеширование Spring (`@EnableCaching`) 
 
 Для кэша используется `ConcurrentMapCacheManager` (можно заменить на Redis при необходимости).
 
