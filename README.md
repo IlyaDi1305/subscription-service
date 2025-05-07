@@ -101,7 +101,7 @@ Docker и Docker Compose
 ✅ Шаги запуска:
 1. Клонируй репозиторий
 ```basch
-   git clone https://https://github.com/IlyaDi1305/subscription-service
+   git clone https://github.com/IlyaDi1305/subscription-service
    cd subscription-service
 ```
 
